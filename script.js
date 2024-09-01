@@ -15,7 +15,7 @@ let currentsong = new Audio();
     }
 
 async function getSongs() {
-    let a = await fetch("http://github.com/avikbiswas123/Spotify.git//ABCD_2/ABCD_2/")
+    let a = await fetch("https://github.com/avikbiswas123/Spotify/tree/7157230df0e86626bd8dc20a66ff31eb4cc13ca3/ABCD_2/ABCD_2")
 
 
     let res = await a.text()
