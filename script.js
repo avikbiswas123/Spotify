@@ -15,7 +15,7 @@ let currentsong = new Audio();
     }
 
 async function getSongs() {
-    let a = await fetch("http://127.0.0.1:3000/ABCD_2/ABCD_2/")
+    let a = await fetch("http://spotify2-ebon.vercel.app//ABCD_2/ABCD_2/")
 
 
     let res = await a.text()
